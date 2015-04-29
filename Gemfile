@@ -25,6 +25,9 @@ gem 'jbuilder', '~> 2.0'
 # add simpleform
 gem 'simple_form'
 
+# add devise
+gem 'devise'
+
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
