@@ -29,6 +29,7 @@ gem 'simple_form'
 gem 'devise'
 
 # add omniauth
+gem 'omniauth'
 gem 'omniauth-facebook'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
