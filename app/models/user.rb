@@ -22,7 +22,7 @@ class User < ActiveRecord::Base
       email: auth_hash.info.email,
       name: auth_hash.info.name,
       oauth_token: auth_hash.credentials.token,
-      oauth_expires: Time.at(auth_hash.credentials.expires_at)
+      oauth_expires_at: Time.at(auth_hash.credentials.expires_at)
       )
   end
 
